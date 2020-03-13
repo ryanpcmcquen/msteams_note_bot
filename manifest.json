@@ -1,0 +1,36 @@
+{
+    "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.5/MicrosoftTeams.schema.json",
+    "manifestVersion": "1.5",
+    "version": "1.0.0",
+    "id": "52fd10ec-0185-4de3-a659-7e8cfec45a75",
+    "packageName": "com.mcquen.notebot",
+    "developer": {
+        "name": "McQuen",
+        "websiteUrl": "https://github.com/ryanpcmcquen/msteams_note_bot",
+        "privacyUrl": "https://github.com/ryanpcmcquen/msteams_note_bot/blob/master/LICENSE",
+        "termsOfUseUrl": "https://github.com/ryanpcmcquen/msteams_note_bot/blob/master/LICENSE"
+    },
+    "icons": {
+        "color": "note_bot_96x96.png",
+        "outline": "note_bot_20x20.png"
+    },
+    "name": {
+        "short": "Note Bot",
+        "full": "Note Bot 5000"
+    },
+    "description": {
+        "short": "The bot that never talks back.",
+        "full": "This bot does nothing."
+    },
+    "accentColor": "#00b8c2",
+    "bots": [
+        {
+            "botId": "893f4a7d-0e3f-491b-838d-21e4e4019b91",
+            "scopes": ["personal", "team", "groupchat"],
+            "supportsFiles": true,
+            "isNotificationOnly": false
+        }
+    ],
+    "permissions": ["identity", "messageTeamMembers"],
+    "validDomains": []
+}
