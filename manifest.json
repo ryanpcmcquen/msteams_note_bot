@@ -1,7 +1,7 @@
 {
     "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.5/MicrosoftTeams.schema.json",
     "manifestVersion": "1.5",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "id": "52fd10ec-0185-4de3-a659-7e8cfec45a75",
     "packageName": "com.mcquen.notebot",
     "developer": {
@@ -11,8 +11,8 @@
         "termsOfUseUrl": "https://github.com/ryanpcmcquen/msteams_note_bot/blob/master/LICENSE"
     },
     "icons": {
-        "color": "note_bot_96x96.png",
-        "outline": "note_bot_20x20.png"
+        "color": "note_bot_192x192.png",
+        "outline": "note_bot_32x32.png"
     },
     "name": {
         "short": "Note Bot",
