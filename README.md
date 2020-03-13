@@ -6,3 +6,5 @@ yourself? This bot is meant as a replacement for that
 functionality. It does nothing, other than give you
 a place to store notes, or things you would send
 to yourself in other services.
+
+![Screenshot](note_bot_screenshot.png)
